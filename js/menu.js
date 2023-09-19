@@ -42,36 +42,6 @@ menuLinks.forEach(function(link) {
 });
 
 }
-// const menuItems = {
-//     img1: {
-//         name: "Stacker Chipotle Triple",
-//         description: "Una deliciosa hamburguesa con triple carne y aderezo chipotle."
-//     },
-//     img2: {
-//         name: "Stacker Chipotle Cuádruple",
-//         description: "Una hamburguesa cargada con cuádruple carne y salsa chipotle."
-//     },
-// };
-
-// function mostrarInfoProducto(imagenProducto) {
-//     const nombreProducto = imagenProducto.getAttribute("data-nombre");
-//     const descripcionProducto = imagenProducto.getAttribute("data-descripcion");
-//     const rutaImagenProducto = imagenProducto.getAttribute("src");
-    
-//     // Actualiza los elementos de la página "Menú" con la información del producto seleccionado
-//     const productoImagen = document.getElementById("productoImagen");
-//     const productoNombre = document.getElementById("productoNombre");
-//     const productoDescripcion = document.getElementById("productoDescripcion");
-    
-//     productoImagen.src = rutaImagenProducto;
-//     productoNombre.textContent = nombreProducto;
-//     productoDescripcion.textContent = descripcionProducto;
-    
-//     // Muestra el área de información del producto
-//     const productoInfo = document.getElementById("productoInfo");
-//     productoInfo.style.display = "block";
-// }
-
 
 
 

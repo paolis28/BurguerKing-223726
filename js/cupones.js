@@ -170,7 +170,6 @@ var cambioImagen = (id, titulo, descripcion) => {
     imagengrande.setAttribute("src", source);
     imagengrande.classList.add("expandir");
 
-    // Actualizamos el contenido del título grande
     tituloGrande.textContent = titulo;
     tituloGrande.style.fontSize = "2.5em";
     tituloGrande.style.fontFamily = 'Arial, Helvetica, sans-serif';

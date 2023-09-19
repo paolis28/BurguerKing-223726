@@ -12,5 +12,3 @@ next.addEventListener('click', () => {
 
 
 
-/************LINEAS DE CODIGO PARA LAS OPCIONES DE SELECCION DEL MENU************/
-
