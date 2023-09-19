@@ -1,0 +1,100 @@
+<!DOCTYPE html 5>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/producto.css">
+    <script src="../js/menu.js"></script>
+    <link rel="icon" href="../img/favicon.png">
+    <title>BURGUER KING MEXICO</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="links">
+                <div class="logo">
+                    <a href="../Index.html"><img class="img-logo" src="../img/favicon.png"></a>
+                </div>
+                <ul class="ul-links">
+                    <li><a href="../Index.html">Pide Aqui</a></li>
+                    <li><a href="../pages/Menu.html">Menú</a></li>
+                    <li><a href="../pages/Cupones.html">Cupones</a></li>
+                    <li><a href="/">Restaurantes</a></li>
+                    <li><a href="/">Delivery</a></li>
+                    <li><a href="/">Novedades</a></li>
+                    <li><a href="/">Sabor Real</a></li>
+                </ul>
+            </div>
+            <hr style="color: rgba(99, 24, 3, 0.283);margin-top: 0%;"> 
+        </nav>
+    </header>
+
+    <main>
+        <div id="productoInfo" class="container-producto">
+            <ul>
+                <li><a href="../Index.html">Home</a></li>
+                <li>/</li>
+                <li><a href="../pages/Menu.html">Menu</a></li>
+            </ul>
+            <div>
+                <img id="productoImagen" src="" alt="Imagen del producto">
+                <h1 id="productoNombre"></h1>
+                <!-- <p id="productoDescripcion"></p> -->
+                <div class="descripcion">
+                    <p id="productoDescripcion"></p>
+                    <hr class="line" style="color: rgba(99, 24, 3, 0.283);margin-top: 0%;">
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Función para obtener los parámetros de la URL
+        function obtenerParametros() {
+          const urlParams = new URLSearchParams(window.location.search);
+          const nombreProducto = urlParams.get('nombre');
+          const imagenProducto = urlParams.get('imagen');
+          const descripcion = urlParams.get('descripcion');
+          
+          const productoImagen = document.getElementById("productoImagen");
+          const productoNombre = document.getElementById("productoNombre");
+          document.getElementById('productoDescripcion').textContent = descripcion;
+          
+          productoImagen.src = imagenProducto;
+          productoNombre.textContent = nombreProducto;
+        }
+        
+        window.onload = obtenerParametros;
+      </script>
+      
+
+    <footer>
+        <div class="foo-container">
+            <div class="logo">
+                <img class="logo" src="../img/Menu/Logo-3.svg">
+            </div>
+
+            <div class="links-foo">
+                <h2>Información</h2>
+                <ul>
+                    <li><a href="/">Sitemap HTML</a></li>
+                    <li><a href="/">Restaurantes</a></li>
+                    <li><a href="/">Contáctanos</a></li>
+                    <li><a href="/">Preguntas frecuentes</a></li>
+                    <li><a href="/">Aviso de privacidad Integral</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr style="color: rgba(131, 131, 131, 0.354);">
+        <div class="redes">
+            <p>TM & © 2022 Burger King Corporation. All Rights reserved</p>
+
+            <a href="https://www.facebook.com/" target="_blank"><img src="../img/Menu/Facebook.svg"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="../img/Menu/Twitter.svg"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="../img/Menu/Youtube.svg"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="../img/Menu/Instagram.svg"></a>
+        </div>
+    </footer>
+</body>
+</html>

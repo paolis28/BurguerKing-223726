@@ -1,0 +1,165 @@
+html,body{
+    background-color: #f5ebdc;
+    margin: 0;
+    padding-top: 2.5%;
+    scroll-behavior: smooth;
+}
+/************************COMPONENTES DEL HEADER************************/
+header{
+    position: absolute;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 58px;
+    padding: 2px;
+    top: 0;
+    background-color: #f5ebdc;
+    z-index: 100;
+}
+div.logo{
+    width:3.5%;
+    margin-left: 12%;
+}
+.img-logo{
+    width: 55px;
+}
+div.links{
+    display: flex;
+}
+.ul-links{
+    display: flex;
+}
+.ul-links > li{
+    list-style: none;
+}
+
+.ul-links > li > a{
+    text-decoration: none;
+    color: rgb(99, 24, 3);
+    padding: 15px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Flame-Regular,sans-serif;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+
+/***********************************************************/
+div.container-producto{
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    margin-top: -5%;
+}
+
+img{
+    text-align: center;
+    width: 25%;
+    /* margin-left: 33%; */
+}
+h1{
+    /* margin-left: 35%; */
+    text-align: center;
+    font-size: 220%;
+    color: rgb(63, 15, 2);
+    font-weight: 900;
+}
+hr.line{
+    width: 100%;
+    /* margin-left: 25%; */
+    text-align: center;
+}
+.productoNombre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+div.descripcion{
+    /* background-color: aqua; */
+    width: 40%;
+    height: 30%;
+    margin-left: 30%;
+    text-align: left;
+    font-size: 110%;
+    color: rgb(63, 15, 2);
+    line-height:120%;
+}
+/* p.productoDescripcion{
+    color: rgb(63, 15, 2);
+} */
+div.container-producto > ul{
+    display: flex;
+}
+
+div.container-producto > ul > li{
+    list-style: none;
+    margin-left: 1%;
+}
+div.container-producto > ul > li > a{
+    text-decoration: none;
+    
+}
+
+/***********************************************************/
+
+
+
+/*********************CODIGO DEL FOOTER******************************/
+footer{
+    background-color: #502314;
+    height: 75%;
+}
+div.foo-container{
+    padding: 2%;
+    width: 96%;
+    height: 60%;
+    display: flex;
+}
+div.foo-container > div.logo{
+    width: 55%;
+}
+div.foo-container > div.logo > img{
+    width: 20%;
+    margin-top: 5%;
+}
+div.links-foo{
+    width: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.links-foo > h2{
+    margin-left: 16%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.links-foo > ul > li{
+    list-style: none;
+    padding: 10px;
+}
+div.links-foo > ul > li >a{
+    text-decoration: none;
+    color: white;
+    font-size: 103%;
+}
+
+footer > hr{
+    width: 72%;
+}
+div.redes {
+    display: flex;
+    width: 72%;
+    margin-left: 13.5%;
+    padding: 10px;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+div.redes > p {
+    font-size: 80%;
+    color: white;
+    flex: 1; 
+}
+div.redes > a {
+    margin-left: 2%;
+    flex: 0; 
+}

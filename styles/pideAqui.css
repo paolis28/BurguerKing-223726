@@ -1,0 +1,370 @@
+body{
+    background-color: #f5ebdc;
+    /* background-image: url(../img/PideAqui/imgHamburguesa_Whopper.png);
+    background-repeat: no-repeat; */
+    position: relative;
+    padding-top: 10%;
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 58px;
+    padding: 2px;
+    top: 0;
+    background-color: #f5ebdc;
+    z-index: 100;
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.06);
+    -webkit-box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.06);
+    -moz-box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.06);
+}
+div.logo{
+    width:3.5%;
+    margin-left: 12%;
+}
+.img-logo{
+    width: 55px;
+}
+
+.ul-links{
+    display: flex;
+}
+
+.ul-links > li{
+    list-style: none;
+}
+
+div.links{
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.ul-links > li > a{
+    text-decoration: none;
+    color: rgb(88, 55, 16);
+    padding: 15px;
+    font-size: 0.8em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > button.bt-registro{
+    background-color: rgb(224, 56, 33);
+    width: 8%;
+    height: 40px;
+    color: white;
+    font-weight: 900;
+    font-size: 90%;
+    border-radius: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-top: 0.5%;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+div.container {
+    width: 100%;
+    position: relative; 
+}
+
+div.img-fondo {
+    width: 100%;
+    position: relative;
+    /* margin-left: 6%; */
+    margin-top: -2%;
+}
+
+img.img-whopper {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    width: 85%;
+    margin-left: 10%;
+    height: 540px;
+}
+
+div.opciones-comida {
+    background-color: #EFE2CF;
+    width: 26%;
+    margin-left: 12%;
+    margin-top: -2%;
+    position: absolute; /* Posición absoluta para superponerse por encima de la imagen */
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: -1px 1px 8px -2px rgba(165,165,165,0.72);
+    -webkit-box-shadow: -1px 1px 8px -2px rgba(165,165,165,0.72);
+    -moz-box-shadow: -1px 1px 8px -2px rgba(165,165,165,0.72);
+}
+ 
+div.opciones-comida > h2{
+    color: rgb(70, 42, 8);
+    font-weight: bold;
+    font-family: condensed 120% sans-serif;
+}
+.bt-opciones {
+    background-color: #f5ebdc;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 2.5%;
+    border-radius: 12px;
+    border: none;
+    display: grid;
+    grid-template-columns: 18% 1fr;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    align-items: start; 
+    cursor:pointer;
+}
+
+.bt-opciones > label {
+    font-weight: bold;
+    font-family: condensed 120% sans-serif;
+    font-size: 1.1em;
+    color: rgb(70, 42, 8);
+    text-align: left;
+    display: flex;
+    grid-column: 2/2;
+    grid-row: 1;
+    flex-direction: column;
+    margin-top: 10%;
+}   
+
+.bt-opciones > .img-opciones {
+    width: 70px;
+    margin-top: 10%;
+    grid-column: 1/1;
+    grid-row: 1;
+}
+
+p.descripcion {
+    color: rgb(70, 42, 8);
+    text-align: left;
+    grid-column: 2/2;
+    grid-row: 1;
+    font-family: sans-serif; 
+    margin-top: 17%;
+    font-weight: 300;
+    opacity: 0;
+    transition: opacity 0.5s; 
+}
+/********************CODIGO PARA EL CONTENIDO DE NOTICIAS******************/
+div.noticias {
+    position: absolute;
+    width: 100%;
+    margin-top: 30%;
+}
+
+div.noticias > a{
+    text-decoration: none;
+    color: rgba(181, 8, 8, 0.952);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 74%;
+}
+
+div.noticias > h2{
+    text-decoration: none;
+    color: rgba(92, 4, 4, 0.952);
+    font-weight: 700;
+    font-family: oblique cursive;
+    margin-left:13%;
+}
+
+div.noticias > div.slider{
+    position: relative;
+    display: flex;
+    padding: 2px;
+    width: 69%;
+    height: 263px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    margin-left: 12%;
+}
+.img1{
+    margin-right: 1.5%;
+    border-radius: 8px;
+}
+
+.container .control {
+    position: absolute;
+    width: 1%;
+    height: 10px;
+    cursor: pointer;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.container .prev {
+    right: 0;
+    transform: translate(-850%, -50%);
+    margin-bottom: 10%;
+}
+
+.container .next {
+    right: 0;
+    transform: translate(-770%, -50%);
+    margin-bottom: 10%;
+}
+
+/*********************CODIGO DEL FOOTER******************************/
+footer{
+    background-color: #502314;
+    height: 300%;
+    margin-top: 60%;
+    position: absolute;
+    width: 100%;
+}
+/* .altolinka {
+    text-decoration: none;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.523);
+} */
+.alto-contraste {
+    background-color: #f5ebdc;
+}
+
+.contrasrtelinka{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.contralin{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+div.barraInicial{
+    width: 75%;
+    height: 15%;
+    margin-left: 10%;
+    margin-top: -1%;
+}
+div.barraInicial > ul{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+div.barraInicial > ul > li{
+    list-style: none;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.linka{
+    text-decoration: none;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.523);
+}
+div.foo-container{
+    padding: 2%;
+    width: 96%;
+    height: 60%;
+    display: flex;
+}
+div.foo-container > div.logo{
+    width: 55%;
+}
+div.foo-container > div.logo > img{
+    width: 20%;
+    margin-top: 5%;
+}
+div.links-foo{
+    width: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.links-foo > h4{
+    margin-left: 16%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.links-foo > ul > li{
+    list-style: none;
+    padding: 10px;
+}
+.linOtro{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 90%;
+}
+
+div.redes {
+    display: flex;
+    width: 72%;
+    margin-left: 9%;
+    padding: 10px;
+    align-items: center; 
+    justify-content: right; 
+}
+
+div.redes > p {
+    font-size: 80%;
+    color: white;
+    flex: 1; 
+}
+div.redes > a {
+    margin-left: 2%;
+    flex: 0; 
+}
+
+@media(hover:hover){
+    nav > button:hover{
+        background-color: rgb(206, 46, 25);
+        color: rgb(232, 231, 231);
+    }
+    .ul-links > li:hover{
+        background-color: rgba(185, 185, 185, 0.466);
+        border-radius: 25px;
+        height: 25px;
+    }
+    .bt-opciones:hover p.descripcion{
+        opacity: 2;
+
+    }
+    .bt-opciones:hover label{
+        margin-top: 7%;
+    }
+    div.links-foo > ul > li >a:hover,
+    div.barraInicial > ul > li >a:hover{
+        color: rgb(206, 46, 25);
+    }
+}
+
+/* Estilo para el checkbox */
+input[type="checkbox"] {
+    display: none; 
+}
+
+/* Estilo para el etiqueta que actúa como el control visual del checkbox */
+.checkbox-label {
+    position: relative;
+    width: 30px;
+    height: 17px;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 15px; 
+    background-color: #ccc;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Estilo para la bolita */
+.ball {
+    width: 40%;
+    height: 70%;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 2;
+    left: 3;
+    transition: transform 0.3s ease; 
+}
+
+input[type="checkbox"]:checked + .checkbox-label .ball {
+    transform: translateX(10px); 
+}
+

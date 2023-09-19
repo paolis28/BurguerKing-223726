@@ -1,0 +1,669 @@
+<!DOCTYPE html 5>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/favicon.png">
+    <link rel="stylesheet" href="../styles/cupones.css">
+    
+    <title>Cupones - BK Mex</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="links">
+                <div class="logo">
+                    <a href="../Index.html"><img class="img-logo" src="../img/favicon.png"></a>
+                </div>
+                <ul class="ul-links">
+                    <li><a href="../Index.html">Pide Aqui</a></li>
+                    <li><a href="../pages/Menu.html">Menú</a></li>
+                    <li><a href="../pages/Cupones.html">Cupones</a></li>
+                    <li><a href="/">Restaurantes</a></li>
+                    <li><a href="/">Delivery</a></li>
+                    <li><a href="/">Novedades</a></li>
+                    <li><a href="/">Sabor Real</a></li>
+                </ul>
+            </div>
+            <hr style="color: rgba(99, 24, 3, 0.283); margin-top: 0%;">
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container-cupones">
+            <div class="panel-menu">
+                <ul>
+                    <li><a href="../Index.html">Home</a></li>
+                    <li>/</li>
+                    <li><a href="/" style="color: rgb(197, 0, 0)" >Cupones</a></li>
+                </ul>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip" >
+                        <div class="cl-NameDescrip">
+                            <div class="descripcion">
+                                <h4 class="titulo-cupon">10 Nuggets 2x1 + Refresco</h4>
+                                <p class="descripcion-cupon">
+                                    20 nuggets y Refresco chico por $89. Válido del 10 de Julio al 06 de 
+                                    Noviembre de 2023 y/o hasta
+                                </p>
+                            </div>
+                            <div class="imagen">
+                                <img id="1" src="../img/Cupones/img1-Nuggets.png">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>2 Whopper Jr. + Cono + Refresco + Papas</h4>
+                            <p class="descripcion-cupon">
+                                2 Whopper Jr, cono sencillo, refresco chico y papas chicas por $89. Válido 
+                                del 10 de Julio al 06 de
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="2" src="../img/Cupones/img2-Whopper.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>2 papas medianas</h4>
+                            <p class="descripcion-cupon">
+                                2 Papas Medianas por $39. Válido del 10 de Julio al 06 de Noviembre de 
+                                2023 y/o hasta agotar existencias. 
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="3" src="../img/Cupones/img3-Papasmedianas.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Hamburguesa con queso + Papas + Cono</h4>
+                            <p class="descripcion-cupon">
+                                Hamburguesa con queso, papas chicas y cono sencillo por $59. Válido del 10 
+                                de Julio al 06 de Noviembre de
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="4" src="../img/Cupones/img4-Hamburguesaqueso.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Whopper + 2 Whopper Jr. + King de Pollo + 3 Papas</h4>
+                            <p class="descripcion-cupon">
+                                Whopper sin queso, 2 Whopper Jr. sin queso, King de Pollo y 3 papas chicas 
+                                por $219. Válido del 10
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="5" src="../img/Cupones/img5-WhopperJr.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Whopper + 1 King de Pollo + 5 Nuggets + 2 Refresco</h4>
+                            <p class="descripcion-cupon">
+                                Whopper, King de Pollo, 5 nuggets y 2 refrescos chicos por $174. Válido 
+                                del 10 de Julio al 06 de
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="6" src="../img/Cupones/img6-Whopperdepollo.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>2 Sundae Jr.</h4>
+                            <p class="descripcion-cupon">
+                                2 Sundae Jr. de cualquier sabor por $29. Válido del 10 de Julio al 06 de 
+                                Noviembre de 2023 y/o hasta agotar existencias. No aplica con otras 
+                                promociones y/o
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="7" src="../img/Cupones/img7-Sundae.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Whopper + Crispy Chicken + Whopper Jr. + 10 Nuggets + 2 Papas</h4>
+                            <p class="descripcion-cupon">
+                                Whopper sin queso, Crispy Chicken, Whopper Jr, 10 nuggets y 2 papas chicas 
+                                por $199. Válido del 10 de Julio
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="8" src="../img/Cupones/img8-Crispy.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>10 Nuggets + Aros Medianos</h4>
+                            <p class="descripcion-cupon">
+                                10 nuggets y 1 aros medianos por $64. Válido del 10 de Julio al 06 de 
+                                Noviembre de 2023 y/o
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="9" src="../img/Cupones/img9-NuggetsAros.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Cono Relleno + Sundae Jr.</h4>
+                            <p class="descripcion-cupon">
+                                Cono sencillo y Sundae Jr de cualquier sabor por $23. Válido del 10 de 
+                                Julio al 06 de Noviembre de
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="10" src="../img/Cupones/img10-ConoRelleno.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Whopper + Hamburguesa con queso + 10 Nuggets + 2 Papas + 2 Conos</h4>
+                            <p class="descripcion-cupon">
+                                Whopper sin queso, Hamburguesa con queso, 10 nuggets, 2 papas chicas y 2 
+                                conos sencillos por $199. Válido del 06
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="11" src="../img/Cupones/img11-Whopperhamburesa.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>3 Papas Grandes</h4>
+                            <p class="descripcion-cupon">
+                                3 papas grandes por $79. Válido del 06 de Febrero al 9 de Julio de 2023 
+                                y/o hasta agotar existencias.
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="12" src="../img/Cupones/img12-Papasgrandes.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Pay de Manzana+ Sundae Jr.</h4>
+                            <p class="descripcion-cupon">
+                                Pay de manzana y Sundae Jr. de cualquier sabor por $34. Válido del 10 de 
+                                Julio al 06 de Noviembre
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="13" src="../img/Cupones/img13-Paymanzana.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Combo 10 Nuggets + Combo Whopper</h4>
+                            <p class="descripcion-cupon">
+                                Combo 10 nuggets chico y combo Whopper sin queso por $179. Válido del 10 
+                                de Julio al 06 de Noviembre
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="14" src="../img/Cupones/img14-Combo10.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Combo 10 Nuggets + Combo Whopper Jr. + 2 Conos</h4>
+                            <p class="descripcion-cupon">
+                                Combo 10 nuggets chico, combo Whoppper Jr. sin queso y 2 conos sencillos 
+                                por $149. Válido del 10 de Julio
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="15" src="../img/Cupones/img15-Nuggetscombo.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>5 Nuggets + Cono + Papas medianas</h4>
+                            <p class="descripcion-cupon">
+                                5 nuggets, cono sencillo y papas medianas por $49. Válido del 10 de Julio 
+                                al 06 de Noviembre de 2023
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="16" src="../img/Cupones/img16-Nuggetscono5.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Whopper + Whopper Jr. + 5 Nuggets + 2 Papas + Refresco + 2 Sundae Jr.</h4>
+                            <p class="descripcion-cupon">
+                                Whopper sin queso, Whopper Jr. in queso, 5 nuggets, 2 papas chicas, ref 
+                                chicos y 2 sundae Jr. de cualquier
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="17" src="../img/Cupones/img17-WhopperNuggetsPapas.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Jugo de Naranja + Pay</h4>
+                            <p class="descripcion-cupon">
+                                Jugo de naranja y pay de cualquier sabor por $44. Válido del 10 de Julio 
+                                al 06 de Noviembre de
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="18" src="../img/Cupones/img18-Jugonaranja.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>2 Combo Whopper Vegetal + Cono</h4>
+                            <p class="descripcion-cupon">
+                                2 Combo Whopper vegetal y cono sencillo por $189. Válido del 10 de Julio 
+                                al 06 de Noviembre de 2023
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="19" src="../img/Cupones/img19-WhopperVegetal2.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Aros Medianos + Papas medianas + 5 Nuggets</h4>
+                            <p class="descripcion-cupon">
+                                Aros med, papas med y 5 nuggetspor $64. Válido del 10 de Julio al 06 de 
+                                Noviembre de 2023 y/o
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="20" src="../img/Cupones/img20-ArosMedianos.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>10 Nuggets + Whopper Jr. + King de Pollo Guacamole + 2 refrescos</h4>
+                            <p class="descripcion-cupon">
+                                10 nuggets, Whopper Jr sin queso, King Pollo Guacamole y 2 refrescos 
+                                chicos por $245. Válido del 10 de Julio 
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="21" src="../img/Cupones/img21-WhopperNuggets10.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>2 Combo Whopper + 6 Nuggets</h4>
+                            <p class="descripcion-cupon">
+                                2 combos Whopper sin queso chicos y 6 nuggets por $189. Válido del 10 de 
+                                Julio al 06 de Noviembre
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="22" src="../img/Cupones/img22-WhopperCombo2.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>2 Whopper + 2 King de Pollo + 4 Papas</h4>
+                            <p class="descripcion-cupon">
+                                2 Whopper sin queso, 2 King de Pollo y 4 papas chicas por $299. Válido del 
+                                10 de Julio al
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="23" src="../img/Cupones/img23-WhopperKingpollo2.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>King Fusion Nutella o Crunch + Sundae</h4>
+                            <p class="descripcion-cupon">
+                                King Fusion Nutella o Crunch y Sundae de cualquier sabor por $59. Válido 
+                                del 10 de Julio al 06 de
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="24" src="../img/Cupones/img24-Kingfusion.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Papas + Cono</h4>
+                            <p class="descripcion-cupon">
+                                Papas medianas y cono sencillo por $28.Válido del 10 de Julio al 06 de 
+                                Noviembre de 2023 y/o hasta agotar
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="25" src="../img/Cupones/img25-PapasCono.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Whopper + Crispy Chicken + 10 Nuggets + 2 Papas + 2 Conos</h4>
+                            <p class="descripcion-cupon">
+                                Whopper sin queso, Crispy Chicken, 10 nuggets, 2 papas kids y 2 conos 
+                                sencillos por $189. Válido del 10 de
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="26" src="../img/Cupones/img26-WhopperCrispy.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Whopper + Crispy Chicken + Hamburguesa con queso + 3 Papas + 3 Conos</h4>
+                            <p class="descripcion-cupon">
+                                Whopper sin queso, Crispy Chicken, Hamburgesa con queso, 6 Nuggets, 3 
+                                papas kids y 3 conos sencillos por $199. Válido
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="27" src="../img/Cupones/img27-WhopperCrispyChiken.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Whopper + Whopper Jr. + King de Pollo + 6 Nuggets + 2 Papas + 2 
+                            Refrescos</h4>
+                            <p class="descripcion-cupon">
+                                Whopper sin queso, Whopper Jr. sin queso, King de Pollo, 6 nuggets, 2 
+                                papas chicas, 2 refrescos chicos por $229
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="28" src="../img/Cupones/img28-WhopperNuggets6.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>10 Nuggets + 2 Papas Medianas + 2 Conos</h4>
+                            <p class="descripcion-cupon">
+                                10 nuggets, 2 papas medianas y 2 conos sencillos por $99. Válido del 06 de 
+                                Febrero al 25 de Junio
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="29" src="../img/Cupones/img29-Nuggets10.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Combo King de Pollo + Cono</h4>
+                            <p class="descripcion-cupon">
+                                Combo King de Pollo chico y cono sencillo por $94. Válido del 10 de Julio 
+                                al 06 de Noviembre de
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="30" src="../img/Cupones/img30-ComboKing.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Combo Whopper + Cono</h4>
+                            <p class="descripcion-cupon">
+                                Combo Whopper sin queso chico y cono sencillo por $99. Válido del 10 de 
+                                Julio al 06 de Noviembre de
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="31" src="../img/Cupones/img31-ComboWhopper.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Hamburguesa con queso + Refresco + 10 Nuggets + Cono</h4>
+                            <p class="descripcion-cupon">
+                                Hamburguesa con queso, refresco chico, 10 Nuggets y cono sencillo por $99. 
+                                Válido del 10 de Julio al 06 de 
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="32" src="../img/Cupones/img32-HamburguesaQueso.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Combo Whopper + Combo Crispy Chicken con queso</h4>
+                            <p class="descripcion-cupon">
+                                Combo Whopper sin queso chico y Combo Crispy Chicken con queso chico por 
+                                149. Válido del 10 de Julio al
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="33" src="../img/Cupones/img33-ComboWhopper.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Family King: Whopper + Whopper Jr. + King de Pollo + Aros de cebolla + 2 
+                            papas ch + 2 Conos</h4>
+                            <p class="descripcion-cupon">
+                                Whopper sin queso, Whopper Jr. Sin queso, King de Pollo, aros de cebolla 
+                                chicos, 2 papas chicas y 2 conos 
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="34" src="../img/Cupones/img34-FamilyKing.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>2 Conos Sencillo</h4>
+                            <p class="descripcion-cupon">
+                                2 Cono sencillos por $14. Válido del 10 de Julio al 06 de Noviembre de 
+                                2023 y/o hasta agotar existencias. 
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="35" src="../img/Cupones/img35-ConosSencillo2.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Whopper Jr. o Crispy Chicken con queso + Papas + Refresco + 3 Nuggets + 
+                            Cono</h4>
+                            <p class="descripcion-cupon">
+                                Whopper Jr sin queso o Crispy Chiken con queso, papas kids, refresco 
+                                chico, 3 piezas nuggets y cono sencillo por
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="36" src="../img/Cupones/img36-WhopperJR.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Croissandwich + Papas hashbrown + Jugo de Naranja</h4>
+                            <p class="descripcion-cupon">
+                                Croissandwich, papas hashbrown chicas y jugo de naranja por $99. Válido 
+                                del 10 de Julio al 06 de Noviembre de
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="37" src="../img/Cupones/img37-Croissandwich.png">
+                        </div>
+                    </div>
+                </button>
+
+                <button class="bt-cupones" onclick="mostrarBt(this)">
+                    <div class="cl-NameDescrip">
+                        <div class="descripcion">
+                            <h4>Combo Guacamole Crunch + Cono</h4>
+                            <p class="descripcion-cupon">
+                                Combo Guacamole Crunch chico y cono sencillo por $169. Válido del 10 de 
+                                Julio al 06 de Noviembre de 2023 
+                            </p>
+                        </div>
+                        <div class="imagen">
+                            <img id="38" src="../img/Cupones/img38-ComboGuacamole.png">
+                        </div>
+                    </div>
+                </button>
+
+            </div>
+
+            <!--------CODIGO PARA CONTENEDOR GRANDE--------->
+
+            <div class="container-info">
+                <div id="marco">
+                    <h1 id="titulo-cupon"></h1> <!-- Este es el título del cupón -->
+                </div>
+                <div id="informacion">
+                    <p id="descripcion"></p>
+                    <a href="https://play.google.com/store/apps/details?id=com.nosmk.burgerking">
+                        <button class="bt-descargar" id="btDescargar">
+                            Descargar la aplicación móvil
+                        </button>
+                    </a>
+                </div>
+            </div>
+            
+            <!---------------------------------->
+        </div>
+        <script src="../js/cupones.js"></script>
+    </main>
+
+    <footer>
+        <div class="foo-container">
+            <div class="logo">
+                <img class="logo" src="../img/Menu/Logo-3.svg">
+            </div>
+
+            <div class="links-foo">
+                <h2>Información</h2>
+                <ul>
+                    <li><a href="/">Sitemap HTML</a></li>
+                    <li><a href="/">Restaurantes</a></li>
+                    <li><a href="/">Contáctanos</a></li>
+                    <li><a href="/">Preguntas frecuentes</a></li>
+                    <li><a href="/">Aviso de privacidad Integral</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr style="color: rgba(131, 131, 131, 0.354);">
+        <div class="redes">
+            <p>TM & © 2022 Burger King Corporation. All Rights reserved</p>
+
+            <img class="imfR" src="../img/Menu/Facebook.svg">
+            <img src="../img/Menu/Twitter.svg"> 
+            <img src="../img/Menu/Youtube.svg">
+            <img src="../img/Menu/Instagram.svg">
+        </div>
+    </footer>
+</body>
+</html>
